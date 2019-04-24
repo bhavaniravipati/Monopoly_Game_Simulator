@@ -133,4 +133,4 @@ This class extends Plots class and has details about Visit Jail plot on the boar
 ###### 3. Add required external jar files - javax.servlet.jsp.jstl-1.2.1.jar, javax.servlet.jsp.jstl-api-1.2.1.jar <br/>
 
 ## Execution Process <br/>
-###### Click on the project and select Run -> Run as server <br/>
+###### Click on the project and select Run As-> Run on server <br/>
