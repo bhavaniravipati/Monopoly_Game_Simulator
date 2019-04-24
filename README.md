@@ -1,6 +1,6 @@
 # Monopoly Game Simulator
 ## README <br/>
-## Project Title: Monopoly Muggles - Simulating Monopoly game using OO design principles<br/>
+###### Project Title: Monopoly Muggles - Simulating Monopoly game using OO design principles<br/>
 
 ## Project Members <br>
 Bhavani Rishitha Ravipati       109246465 <br/>
