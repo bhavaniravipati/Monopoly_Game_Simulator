@@ -41,4 +41,104 @@ This is the final page of the application where winners name is displayed<br/>
 
 ## Backend Files <br/>
 
+There are 4 files related to User Interface placed in SRC Folder <br/>
+###### Action.java
+This class defines the actions that a player can perform based on his current location on the board <br/>
+
+###### Avenue.java
+This class contains details about the Avenue Plots <br/>
+
+###### AvenuePlot.java
+This class extends Plots class and has details about 10 Avenue plots namely RedWood Ave, Rainbow Ave, RockMont Ave, BlueBerry Ave, BlackHawk Ave, GrapeWood Ave, GoldHill Ave, Glacier Ave, Yale Ave, YellowPine Ave <br/>
+
+###### Banker.java
+This is a Singleton class which creates a Banker instance <br/>
+
+###### Board.java
+This is a Singleton class which creates a Board instance. Board consists of Plots <br/>
+
+###### BuildHouse.java
+This class contains methods which are called when a player wants to build a house in the plot he owns <br/>
+
+###### BuySquare.java
+This class contains methods which are called when a player wants to buy a particular plot that he landed on <br/>
+
+###### CAndCCard.java
+This class contains details about the Chance and Community Chest Plots. We have defined 10 chance and Community chest cards <br/>
+
+###### Cards.java
+This abstract class is the parent class for the chance and community chest cards <br/>
+
+###### Chance.java
+This class extends Plots class and has details about Chance plot on the board <br/>
+
+###### Command.java
+This abstract class is the parent class for the different kinds of commands that the player has to perform like Buy and Build <br/>
+
+###### CommandSelector.java
+This class consists of the different commands that are to be selected based on the location and the action performed by the player <br/>
+
+###### CommunityChest.java
+This class extends Plots class and has details about Community Chest plot on the board <br/>
+
+###### Dice.java
+This class contains the action related to Dice <br/>
+
+###### Electricity.java
+This class contains details about the Electricity Plot <br/>
+
+###### ElectricityPlot.java
+This class extends Plots class and has details about Free Parking plot on the board <br/>
+
+###### FreeParking.java
+This class extends Plots class and has details about Free Parking plot on the board<br/>
+
+###### GameController.java
+This class defines the game start, stop and passing go conditions <br/>
+
+###### GameSimulator.java
+This class acta as a simulator for the monopoly game which acts as link between monopoly controller class and the logic of the code <br/>
+
+###### GetCardFactory.java
+This class generates card objects of type Avenue, Electricity, RailRoad, Chance and Community Chest <br/>
+
+###### Go.java
+This class extends Plots class and has details about Go cell on the board <br/>
+
+###### GoToJail.java
+This class extends Plots class and has details about Go To Jail plot on the board <br/>
+
+###### IncomeTax.java
+This class extends Plots class and has details about IncomeTax plot on the board <br/>
+
+###### MoneyTransaction.java
+This class is define the transactions performed as part of the game <br/>
+
+###### MonopolyController.java
+This class acts as a controller in the MVC architecture which connects the view and the business logic. This class receives requests from the UI and directs these requests to the appropriate logic of the code and send the responses to the UI <br/>
+
+###### MoveToSquare.java
+This class consists of the methods which are to be executed whenever a player wants to move within the board because of a chance or community chest card <br/>
+
+###### MyException.java
+This class is defined to throw user defined exceptions <br/>
+
+###### PayTax.java
+This class contains methods which are called when a player lands on pay tax plot <br/>
+
+###### Player.java
+This class keeps track of all Player actions <br/>
+
+###### Plots.java
+This abstract class is the parent class for the different kind of plots on the monopoly board which includes AvenuePlot, RailRoadPlot, ElectricityPlot, Free Parking, Community Chest & Chance, Income Tax, Go cell, Go To Jail and Visit Jail. This class has methods that help us to set and get the plot number and plot name of these plots <br/>
+
+###### RailRoad.java
+This class contains details about the RailRoad Plots <br/>
+
+###### RailRoadPlot.java
+This class extends Plots class and has details about 4 RailRoad plots on the board <br/>
+
+###### VisitJail.java
+This class extends Plots class and has details about Visit Jail plot on the board <br/>
+
 ## Execution Process <br/>
