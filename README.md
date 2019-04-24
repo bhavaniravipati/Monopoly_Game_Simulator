@@ -9,8 +9,7 @@ Monopoly Muggles - Simulating Monopoly game using OO design principles<br/>
 ###### Priyanka Umesh Pandit Tailapur - 109259683 <br/>
 ###### Reshma Chowdary Morampudi - 109258663 <br/>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=QjQAZry7964&feature=youtu.be)
-
+<a href="https://youtu.be/QjQAZry7964" target="_blank"><img src="https://j.gifs.com/lx2Wy6.gif" width="240" height="180" border="10" /></a>
 
 ## Basic Overview <br/>
 Monopoly is a multi-person board game where players roll dice to move around the game board. In our system, we are simulating a smaller version of the real-world game through a web application. This simulated version is a two player game with a reduced board that contains 24 plots in total. This board captures most of the different plot types present in the original monopoly board.  <br/>
