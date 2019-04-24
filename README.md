@@ -128,4 +128,10 @@ This class extends Plots class and has details about 4 RailRoad plots on the boa
 ###### 33. VisitJail.java
 This class extends Plots class and has details about Visit Jail plot on the board <br/>
 
+## Installation Notes <br/>
+###### 1. Install Eclipse <br/>
+###### 2. Install Apache Server <br/>
+###### 3. Add required external jar files - javax.servlet.jsp.jstl-1.2.1.jar, javax.servlet.jsp.jstl-api-1.2.1.jar <br/>
+
 ## Execution Process <br/>
+Click on the project and select Run -> Run as server <br/>
