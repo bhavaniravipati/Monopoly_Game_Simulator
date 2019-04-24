@@ -4,10 +4,10 @@
 Monopoly Muggles - Simulating Monopoly game using OO design principles<br/>
 
 ## Project Members <br>
-Bhavani Rishitha Ravipati       109246465 <br/>
-Priyanka Sundaram               109265722 <br/>
-Priyanka Umesh Pandit Tailapur  109259683  <br/>
-Reshma Chowdary Morampudi	      109258663 <br/>
+###### Bhavani Rishitha Ravipati        109246465 <br/>
+###### Priyanka Sundaram                109265722 <br/>
+###### Priyanka Umesh Pandit Tailapur   109259683 <br/>
+###### Reshma Chowdary Morampudi	      109258663 <br/>
 
 ## Basic Overview <br/>
 Monopoly is a multi-person board game where players roll dice to move around the game board. In our system, we are simulating a smaller version of the real-world game through a web application. This simulated version is a two player game with a reduced board that contains 24 plots in total. This board captures most of the different plot types present in the original monopoly board.  <br/>
@@ -134,4 +134,4 @@ This class extends Plots class and has details about Visit Jail plot on the boar
 ###### 3. Add required external jar files - javax.servlet.jsp.jstl-1.2.1.jar, javax.servlet.jsp.jstl-api-1.2.1.jar <br/>
 
 ## Execution Process <br/>
-Click on the project and select Run -> Run as server <br/>
+###### Click on the project and select Run -> Run as server <br/>
