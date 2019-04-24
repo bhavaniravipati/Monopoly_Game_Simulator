@@ -12,30 +12,6 @@ Reshma Chowdary Morampudi	      109258663 <br/>
 ## Basic Overview <br/>
 Monopoly is a multi-person board game where players roll dice to move around the game board. In our system, we are simulating a smaller version of the real-world game through a web application. This simulated version is a two player game with a reduced board that contains 24 plots in total. This board captures most of the different plot types present in the original monopoly board.  <br/>
 
-## List of Features <br/>
-Following are the features of our game board and the nature of players: <br/>
-There are 24 plots in total<br/>
-1. It is a 2 player game with the maximum number of turns per player reduced to 25<br/>
-2. The properties that a player can hold, apart from plots, are limited only to houses that can be built on some of the plots that he owns<br/>
-3. The number of chance and community cards are limited to 5 each<br/>
-4. Money that each player receives initially is $1500<br/>
-5. The salary a player receives as he passes “GO” cell is $100<br/>
-6. The number of houses that can be built in a plot by a player is limited to 2<br/>
-7. The initial amount with the banker is $5000<br/>
-
-## Rules of the game <br/>
-1. Roll a dice <br/>
-2. Move the player’s token to the respective position as rolled by the dice <br/>
-3. Perform the action specific to the plot that the token landed on <br/>
-4. If the player lands in a plot which is an avenue, the player can either buy it, build a house or pay rent if the other player has already bought it. If a player buys a plot, the system will assign a plot card to the player. Plot card includes information related to the plot such as cost and rent of the plot, the number of houses that can be built on the plot, cost to build a house, etc <br/>
-5. If the player owns a plot, he is allowed to build a house on that plot <br/>
-6. If the player lands in a plot which is either Chance or Community Chest, the system will give him a random card and he should perform an action based on assigned card’s instruction <br/>
-7. If the player lands in a plot which has railroad/utilities, he can either buy or pay rent if the other player owns it <br/>
-8. If the player lands in a plot which has an Income tax, he has to pay income tax of $50 to the banker <br/>
-9. If the player lands in a plot which has Jail or Free Parking, he does not perform any action <br/>
-10. If the player lands in a plot which has Go to Jail, then he must backtrack and go to the Visit Jail plot <br/>
-11. If the player passes by Go plot after one complete round, then he will collect $100 salary from the banker <br/>
-
 ## UI Files <br/>
 There are 4 files related to User Interface placed in WEB CONTENT Folder <br/>
 ###### 1. index.jsp <br/>
