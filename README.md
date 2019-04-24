@@ -4,10 +4,10 @@
 Monopoly Muggles - Simulating Monopoly game using OO design principles<br/>
 
 ## Project Members <br>
-###### Bhavani Rishitha Ravipati        109246465 <br/>
-###### Priyanka Sundaram                109265722 <br/>
-###### Priyanka Umesh Pandit Tailapur   109259683 <br/>
-###### Reshma Chowdary Morampudi	      109258663 <br/>
+###### Bhavani Rishitha Ravipati - 109246465 <br/>
+###### Priyanka Sundaram - 109265722 <br/>
+###### Priyanka Umesh Pandit Tailapur - 109259683 <br/>
+###### Reshma Chowdary Morampudi - 109258663 <br/>
 
 ## Basic Overview <br/>
 Monopoly is a multi-person board game where players roll dice to move around the game board. In our system, we are simulating a smaller version of the real-world game through a web application. This simulated version is a two player game with a reduced board that contains 24 plots in total. This board captures most of the different plot types present in the original monopoly board.  <br/>
@@ -21,8 +21,7 @@ This file consists of code to the landing page of the application where players 
 This file consists of code to the second page of the application where players are provided with text boxes to enter their names and once they click on the start button, they land on main board <br/>
 
 ###### 3. monopoly.jsp <br/>
-This file consists of code to the main page of the application where players are provided with buttons to roll die, end their turn, buy plots and build houses <br/>
-There are 24 tiles depicting go cell, jail, avenues, railroads, community chest and chance cards, electricity, income tax, and free parking plot along with their details<br/>
+This file consists of code to the main page of the application where players are provided with buttons to roll die, end their turn, buy plots and build houses. There are 24 tiles depicting go cell, jail, avenues, railroads, community chest and chance cards, electricity, income tax, and free parking plot along with their details<br/>
 
 ###### 4. winner.jsp <br/>
 This is the final page of the application where winners name is displayed<br/>
@@ -130,7 +129,7 @@ This class extends Plots class and has details about Visit Jail plot on the boar
 
 ## Installation Notes <br/>
 ###### 1. Install Eclipse <br/>
-###### 2. Install Apache Server <br/>
+###### 2. Install Apache Tomcat Server <br/>
 ###### 3. Add required external jar files - javax.servlet.jsp.jstl-1.2.1.jar, javax.servlet.jsp.jstl-api-1.2.1.jar <br/>
 
 ## Execution Process <br/>
