@@ -27,7 +27,7 @@ This file consists of code to the main page of the application where players are
 This is the final page of the application where winners name is displayed<br/>
 
 ## Backend Files <br/>
-There are 33 files related to Backend placed in SRC Folder <br/>
+There are 33 files related to Backend placed in src Folder <br/>
 ###### 1. Action.java
 This class defines the actions that a player can perform based on his current location on the board <br/>
 
