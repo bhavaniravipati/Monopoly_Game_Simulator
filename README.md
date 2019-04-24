@@ -15,16 +15,28 @@ Monopoly is a multi-person board game where players roll dice to move around the
 ## List of Features <br/>
 Following are the features of our game board and the nature of players: <br/>
 There are 24 plots in total<br/>
-It is a 2 player game with the maximum number of turns per player reduced to 25<br/>
-The properties that a player can hold, apart from plots, are limited only to houses that can be built on some of the plots that he owns<br/>
-The number of chance and community cards are limited to 5 each<br/>
-Money that each player receives initially is $1500<br/>
-The salary a player receives as he passes “GO” cell is $100<br/>
-The number of houses that can be built in a plot by a player is limited to 2<br/>
-The initial amount with the banker is $5000<br/>
+1. It is a 2 player game with the maximum number of turns per player reduced to 25<br/>
+2. The properties that a player can hold, apart from plots, are limited only to houses that can be built on some of the plots that he owns<br/>
+3. The number of chance and community cards are limited to 5 each<br/>
+4. Money that each player receives initially is $1500<br/>
+5. The salary a player receives as he passes “GO” cell is $100<br/>
+6. The number of houses that can be built in a plot by a player is limited to 2<br/>
+7. The initial amount with the banker is $5000<br/>
+
+## Rules of the game <br/>
+1. Roll a dice <br/>
+2. Move the player’s token to the respective position as rolled by the dice <br/>
+3. Perform the action specific to the plot that the token landed on <br/>
+4. If the player lands in a plot which is an avenue, the player can either buy it, build a house or pay rent if the other player has already bought it. If a player buys a plot, the system will assign a plot card to the player. Plot card includes information related to the plot such as cost and rent of the plot, the number of houses that can be built on the plot, cost to build a house, etc <br/>
+5. If the player owns a plot, he is allowed to build a house on that plot <br/>
+6. If the player lands in a plot which is either Chance or Community Chest, the system will give him a random card and he should perform an action based on assigned card’s instruction <br/>
+7. If the player lands in a plot which has railroad/utilities, he can either buy or pay rent if the other player owns it <br/>
+8. If the player lands in a plot which has an Income tax, he has to pay income tax of $50 to the banker <br/>
+9. If the player lands in a plot which has Jail or Free Parking, he does not perform any action <br/>
+10. If the player lands in a plot which has Go to Jail, then he must backtrack and go to the Visit Jail plot <br/>
+11. If the player passes by Go plot after one complete round, then he will collect $100 salary from the banker <br/>
 
 ## UI Files <br/>
-
 There are 4 files related to User Interface placed in WEB CONTENT Folder <br/>
 ###### 1. index.jsp <br/>
 This file consists of code to the landing page of the application where players are provided with a start button to enter to the next page (login) where players can enter their names <br/>
@@ -40,105 +52,104 @@ There are 24 tiles depicting go cell, jail, avenues, railroads, community chest 
 This is the final page of the application where winners name is displayed<br/>
 
 ## Backend Files <br/>
-
 There are 4 files related to User Interface placed in SRC Folder <br/>
-###### Action.java
+###### 1. Action.java
 This class defines the actions that a player can perform based on his current location on the board <br/>
 
-###### Avenue.java
+###### 2. Avenue.java
 This class contains details about the Avenue Plots <br/>
 
-###### AvenuePlot.java
+###### 3. AvenuePlot.java
 This class extends Plots class and has details about 10 Avenue plots namely RedWood Ave, Rainbow Ave, RockMont Ave, BlueBerry Ave, BlackHawk Ave, GrapeWood Ave, GoldHill Ave, Glacier Ave, Yale Ave, YellowPine Ave <br/>
 
-###### Banker.java
+###### 4. Banker.java
 This is a Singleton class which creates a Banker instance <br/>
 
-###### Board.java
+###### 5. Board.java
 This is a Singleton class which creates a Board instance. Board consists of Plots <br/>
 
-###### BuildHouse.java
+###### 6. BuildHouse.java
 This class contains methods which are called when a player wants to build a house in the plot he owns <br/>
 
-###### BuySquare.java
+###### 7. BuySquare.java
 This class contains methods which are called when a player wants to buy a particular plot that he landed on <br/>
 
-###### CAndCCard.java
+###### 8. CAndCCard.java
 This class contains details about the Chance and Community Chest Plots. We have defined 10 chance and Community chest cards <br/>
 
-###### Cards.java
+###### 9. Cards.java
 This abstract class is the parent class for the chance and community chest cards <br/>
 
-###### Chance.java
+###### 10. Chance.java
 This class extends Plots class and has details about Chance plot on the board <br/>
 
-###### Command.java
+###### 11. Command.java
 This abstract class is the parent class for the different kinds of commands that the player has to perform like Buy and Build <br/>
 
-###### CommandSelector.java
+###### 12. CommandSelector.java
 This class consists of the different commands that are to be selected based on the location and the action performed by the player <br/>
 
-###### CommunityChest.java
+###### 13. CommunityChest.java
 This class extends Plots class and has details about Community Chest plot on the board <br/>
 
-###### Dice.java
+###### 14. Dice.java
 This class contains the action related to Dice <br/>
 
-###### Electricity.java
+###### 15. Electricity.java
 This class contains details about the Electricity Plot <br/>
 
-###### ElectricityPlot.java
+###### 16. ElectricityPlot.java
 This class extends Plots class and has details about Free Parking plot on the board <br/>
 
-###### FreeParking.java
+###### 17. FreeParking.java
 This class extends Plots class and has details about Free Parking plot on the board<br/>
 
-###### GameController.java
+###### 18. GameController.java
 This class defines the game start, stop and passing go conditions <br/>
 
-###### GameSimulator.java
+###### 19. GameSimulator.java
 This class acta as a simulator for the monopoly game which acts as link between monopoly controller class and the logic of the code <br/>
 
-###### GetCardFactory.java
+###### 20. GetCardFactory.java
 This class generates card objects of type Avenue, Electricity, RailRoad, Chance and Community Chest <br/>
 
-###### Go.java
+###### 21. Go.java
 This class extends Plots class and has details about Go cell on the board <br/>
 
-###### GoToJail.java
+###### 22. GoToJail.java
 This class extends Plots class and has details about Go To Jail plot on the board <br/>
 
-###### IncomeTax.java
+###### 23. IncomeTax.java
 This class extends Plots class and has details about IncomeTax plot on the board <br/>
 
-###### MoneyTransaction.java
+###### 24. MoneyTransaction.java
 This class is define the transactions performed as part of the game <br/>
 
-###### MonopolyController.java
+###### 25. MonopolyController.java
 This class acts as a controller in the MVC architecture which connects the view and the business logic. This class receives requests from the UI and directs these requests to the appropriate logic of the code and send the responses to the UI <br/>
 
-###### MoveToSquare.java
+###### 26. MoveToSquare.java
 This class consists of the methods which are to be executed whenever a player wants to move within the board because of a chance or community chest card <br/>
 
-###### MyException.java
+###### 27. MyException.java
 This class is defined to throw user defined exceptions <br/>
 
-###### PayTax.java
+###### 28. PayTax.java
 This class contains methods which are called when a player lands on pay tax plot <br/>
 
-###### Player.java
+###### 29. Player.java
 This class keeps track of all Player actions <br/>
 
-###### Plots.java
+###### 30. Plots.java
 This abstract class is the parent class for the different kind of plots on the monopoly board which includes AvenuePlot, RailRoadPlot, ElectricityPlot, Free Parking, Community Chest & Chance, Income Tax, Go cell, Go To Jail and Visit Jail. This class has methods that help us to set and get the plot number and plot name of these plots <br/>
 
-###### RailRoad.java
+###### 31. RailRoad.java
 This class contains details about the RailRoad Plots <br/>
 
-###### RailRoadPlot.java
+###### 32. RailRoadPlot.java
 This class extends Plots class and has details about 4 RailRoad plots on the board <br/>
 
-###### VisitJail.java
+###### 33. VisitJail.java
 This class extends Plots class and has details about Visit Jail plot on the board <br/>
 
 ## Execution Process <br/>
