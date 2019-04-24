@@ -1,5 +1,5 @@
 # MONOPOLY GAME SIMULATOR
-## README <br/>
+
 ## Project Title  <br/>
 Monopoly Muggles - Simulating Monopoly game using OO design principles<br/>
 
