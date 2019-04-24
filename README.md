@@ -28,7 +28,7 @@ There are 24 tiles depicting go cell, jail, avenues, railroads, community chest 
 This is the final page of the application where winners name is displayed<br/>
 
 ## Backend Files <br/>
-There are 4 files related to User Interface placed in SRC Folder <br/>
+There are 33 files related to Backend placed in SRC Folder <br/>
 ###### 1. Action.java
 This class defines the actions that a player can perform based on his current location on the board <br/>
 
